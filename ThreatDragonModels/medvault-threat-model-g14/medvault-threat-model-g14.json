@@ -46,52 +46,6 @@
             }
           },
           {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": -1,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Trust Boundary ",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "f3f2284e-df0d-4d85-9279-fd5989fe2d77",
-                "5ee349df-5651-48b8-9354-c4c84518514c",
-                "677da0a8-b76c-4f30-9c62-34d78a5d40f1",
-                "dc848113-1d61-4e28-925c-c0a196c22c38",
-                "e2c70cd2-ccab-45de-83d8-3ece982ce1f6",
-                "44c03c8f-969a-48ae-a834-617c56dbee53",
-                "bd1ef442-e5c6-4142-9d61-ccd9265ce0df",
-                "183e7fe2-20e6-4587-858f-906e3126270c",
-                "5956fedd-af55-42ba-8809-db8d74bce799"
-              ],
-              "containedElements": [
-                "5e94600c-cc99-4fa9-8e46-5e5c320ebd28"
-              ]
-            },
-            "labels": [
-              "Trust Boundary "
-            ],
-            "id": "75b38fab-4349-4207-8790-3420d4e368d6",
-            "source": {
-              "x": 30,
-              "y": 310
-            },
-            "target": {
-              "x": 1250,
-              "y": 380
-            },
-            "vertices": [
-              {
-                "x": 640,
-                "y": 130
-              }
-            ]
-          },
-          {
             "position": {
               "x": 90,
               "y": 30.000000000000213
@@ -848,9 +802,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "75b38fab-4349-4207-8790-3420d4e368d6"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Consultas SQL"
@@ -868,6 +820,10 @@
               {
                 "x": 450,
                 "y": 240
+              },
+              {
+                "x": 370,
+                "y": 260
               },
               {
                 "x": 290,
@@ -907,8 +863,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "e49f1da8-1f87-43c9-b12c-1ec6cafe6896",
-                "75b38fab-4349-4207-8790-3420d4e368d6"
+                "e49f1da8-1f87-43c9-b12c-1ec6cafe6896"
               ]
             },
             "labels": [
@@ -929,8 +884,8 @@
                 "y": 150
               },
               {
-                "x": 330,
-                "y": 120
+                "x": 300,
+                "y": 90
               }
             ]
           },
@@ -966,8 +921,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "e49f1da8-1f87-43c9-b12c-1ec6cafe6896",
-                "75b38fab-4349-4207-8790-3420d4e368d6"
+                "e49f1da8-1f87-43c9-b12c-1ec6cafe6896"
               ]
             },
             "labels": [
@@ -1028,9 +982,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "75b38fab-4349-4207-8790-3420d4e368d6"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Respuesta SQL"
@@ -1082,9 +1034,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "75b38fab-4349-4207-8790-3420d4e368d6"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Leer/escribir archivos"
@@ -1136,9 +1086,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "75b38fab-4349-4207-8790-3420d4e368d6"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Respuesta"
@@ -1190,9 +1138,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "75b38fab-4349-4207-8790-3420d4e368d6"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Crear/leer sesión"
@@ -1244,9 +1190,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "75b38fab-4349-4207-8790-3420d4e368d6"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Respuesta"
@@ -1298,9 +1242,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "75b38fab-4349-4207-8790-3420d4e368d6"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               " Deploy CI/CD"
@@ -1322,6 +1264,40 @@
               {
                 "x": 700,
                 "y": 140
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 11,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary ",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary "
+            ],
+            "id": "75b38fab-4349-4207-8790-3420d4e368d6",
+            "source": {
+              "x": 400,
+              "y": 200
+            },
+            "target": {
+              "x": 900,
+              "y": 210
+            },
+            "vertices": [
+              {
+                "x": 640,
+                "y": 130
               }
             ]
           }
