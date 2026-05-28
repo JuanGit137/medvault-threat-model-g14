@@ -20,7 +20,7 @@
           {
             "position": {
               "x": 55,
-              "y": 25.00000000000017
+              "y": 25.000000000000128
             },
             "size": {
               "width": 210,
@@ -78,6 +78,33 @@
                 "y": 300
               }
             ]
+          },
+          {
+            "position": {
+              "x": 955,
+              "y": 25.000000000000057
+            },
+            "size": {
+              "width": 180,
+              "height": 60
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "b900b9ea-28e6-481a-bc0b-1ad936fe757b",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "5956fedd-af55-42ba-8809-db8d74bce799"
+              ],
+              "containedElements": [
+                "63d43c57-98b7-43ce-9b6d-6df176ead9ed"
+              ]
+            }
           },
           {
             "position": {
@@ -1276,7 +1303,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "b900b9ea-28e6-481a-bc0b-1ad936fe757b"
+              ]
             },
             "labels": [
               " Deploy CI/CD"
@@ -1309,7 +1338,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Trust Boundary ",
+              "name": "Internet",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -1317,7 +1346,7 @@
               "containedElements": []
             },
             "labels": [
-              "Trust Boundary "
+              "Internet"
             ],
             "id": "75b38fab-4349-4207-8790-3420d4e368d6",
             "source": {
@@ -1330,8 +1359,8 @@
             },
             "vertices": [
               {
-                "x": 640,
-                "y": 130
+                "x": 620,
+                "y": 140
               }
             ]
           },
