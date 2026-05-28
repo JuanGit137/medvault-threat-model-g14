@@ -19,6 +19,34 @@
         "cells": [
           {
             "position": {
+              "x": 55,
+              "y": 25.00000000000017
+            },
+            "size": {
+              "width": 210,
+              "height": 60
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "e49f1da8-1f87-43c9-b12c-1ec6cafe6896",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "5ee349df-5651-48b8-9354-c4c84518514c",
+                "677da0a8-b76c-4f30-9c62-34d78a5d40f1"
+              ],
+              "containedElements": [
+                "aff8d5c7-3b9f-4084-8f8d-7c42f79dfbc4"
+              ]
+            }
+          },
+          {
+            "position": {
               "x": 90,
               "y": 30.000000000000213
             },
@@ -790,12 +818,12 @@
             },
             "vertices": [
               {
-                "x": 460,
-                "y": 250
+                "x": 450,
+                "y": 240
               },
               {
-                "x": 250,
-                "y": 310
+                "x": 290,
+                "y": 290
               }
             ]
           },
@@ -819,7 +847,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "HTTP responses",
+              "name": "Respuesta HTTP",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -830,10 +858,12 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "e49f1da8-1f87-43c9-b12c-1ec6cafe6896"
+              ]
             },
             "labels": [
-              "HTTP responses"
+              "Respuesta HTTP"
             ],
             "id": "5ee349df-5651-48b8-9354-c4c84518514c",
             "source": {
@@ -846,12 +876,12 @@
             },
             "vertices": [
               {
-                "x": 510,
-                "y": 160
+                "x": 530,
+                "y": 150
               },
               {
-                "x": 300,
-                "y": 90
+                "x": 330,
+                "y": 120
               }
             ]
           },
@@ -875,7 +905,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "HTTP requests",
+              "name": "Solicitud \nHTTP ",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -886,10 +916,12 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "e49f1da8-1f87-43c9-b12c-1ec6cafe6896"
+              ]
             },
             "labels": [
-              "HTTP requests"
+              "Solicitud \nHTTP "
             ],
             "id": "677da0a8-b76c-4f30-9c62-34d78a5d40f1",
             "source": {
@@ -903,11 +935,11 @@
             "vertices": [
               {
                 "x": 430,
-                "y": 100
+                "y": 90
               },
               {
-                "x": 580,
-                "y": 140
+                "x": 550,
+                "y": 120
               }
             ]
           },
@@ -958,7 +990,7 @@
             },
             "vertices": [
               {
-                "x": 450,
+                "x": 480,
                 "y": 280
               }
             ]
